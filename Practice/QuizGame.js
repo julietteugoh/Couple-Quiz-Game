@@ -115,6 +115,11 @@ function selectAnswer(e) {
     score++;
   } else {
     selectedBtn.classList.add("incorrect");
+    if (
+      window.confirm("Let me not believe you chose that on purpose! Try Again")
+    ) {
+      location.reload();
+    }
   }
   Array.from(answerButtons.children).forEach((button) => {
     if (button.dataset.correct === "true") {
