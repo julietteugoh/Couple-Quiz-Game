@@ -118,7 +118,7 @@ function selectAnswer(e) {
     if (
       window.confirm("Let me not believe you chose that on purpose! Try Again")
     ) {
-      location.reload();
+      location.replace();
     }
   }
   Array.from(answerButtons.children).forEach((button) => {
