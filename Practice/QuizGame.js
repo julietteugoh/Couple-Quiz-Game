@@ -13,9 +13,9 @@ const questions = [
   },
 
   {
-    question: "What do you say to Partner's Parent at your wedding?",
+    question: "What do you say to your Partner's Parents at your wedding?",
     answers: [
-      { text: "Thank you raising such a wonderful person'👏", correct: true },
+      { text: "Thank you for raising such a wonderful person👏", correct: true },
       { text: "Hope this your pikin make sense sha🤷‍♀️", correct: false },
       {
         text: "Please don't come visiting'🏠",
@@ -28,10 +28,10 @@ const questions = [
     ],
   },
   {
-    question: "What do you do if your nejghbour's child wants your food?",
+    question: "What do you do if your neighbour's child wants your food?",
     answers: [
       {
-        text: "Say NO because you don't encourage bad behavoir😪",
+        text: "Say NO because you don't encourage bad behavior 😪",
         correct: false,
       },
       {
@@ -49,7 +49,7 @@ const questions = [
     ],
   },
   {
-    question: "How do you fight tempatations?",
+    question: "How do you fight temptations?",
     answers: [
       {
         text: "Stand there and keep shouting 'stop! stop! we shouldn't be doing this''😱",
